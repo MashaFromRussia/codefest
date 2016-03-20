@@ -4,5 +4,25 @@
 }
 
 body {
-	background: black:;
+	background: green;
+}
+
+header {
+	background: url(http://static1.squarespace.com/static/56c7b0d8ab48de2d5c683bd1/56c7b127356fb0ec8c21180f/56c7b127356fb0ec8c211810/1455927606349/PicclePic.png?format=1500w);
+	background-size: cover;
+	height: 100vh;
+}
+
+.title {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: green;
+	font-size: 3em;
+}
+
+#main {
+	width: 80%;
+	margin: 20px auto;
 }
